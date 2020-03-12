@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: indianred;
+    background-color: #BA6565;
     
 }
 main{
@@ -18,16 +18,20 @@ main{
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    padding: 15px;
 }
 
 .tagline{
    text-align: center;
    padding-bottom: 20px;
    color: white;
+   margin-bottom: 0;
 }
 
 footer { 
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .images {
@@ -69,22 +73,20 @@ h1{
     margin-right: auto;
     display: inline-block;
     color: white;
+    width: 100%;
 }
 
 .about-me h1{
     text-align: left;
-    padding: 15px;
-    margin-left: 30%;
-    margin-top: 4%;
+    margin-left: 58%;
    
+  
 }
 
 .about-me p{
     text-align: left;
-    padding: 15px;
-    margin-left: 30%;
-    width: 40%;
-   
+    margin-left: 58%;
+    width: 15%;
 }
 
 .about-me a{
@@ -92,9 +94,45 @@ h1{
 }
 
 .about-me img{
-    width: 23%;
+    width: 35%;
     float: left;
-    display: inline-block;
-    margin-left: 28%;
-    margin-right: 2%;
+    margin-left: 22%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
 }
+
+.contact-form {
+
+    background-color: #803939;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.socials {
+ padding: 25px;
+}
+
+.instagram{
+   width: 40px;
+   padding: 10px;
+}
+
+.twitter{
+    width: 40px;
+    padding: 10px;
+
+ }
+
+ .facebook{
+    width: 40px;
+    padding: 10px;
+
+ }
