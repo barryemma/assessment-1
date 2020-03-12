@@ -1,17 +1,11 @@
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-   margin: 0;
-}
+
+
+/* Header */
 
 header {
     background-color: #BA6565;
     
 }
-main{
-    margin: 0;
-    margin-bottom: 0;
-}
-
 
 .logo {
     display: block;
@@ -22,16 +16,30 @@ main{
 }
 
 .tagline{
-   text-align: center;
-   padding-bottom: 20px;
-   color: white;
-   margin-bottom: 0;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    margin-bottom: 0;
+ }
+
+/* Main Content */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
-footer { 
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+
+main{
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.suzie-and-jake {
+  
+    background-color:#F5EEEC;
+    color: #3E3B3B;
+    padding: 15px;
 }
 
 .images {
@@ -59,12 +67,7 @@ h1{
     padding: 10px;
 }
 
-.suzie-and-jake {
-  
-    background-color:#F5EEEC;
-    color: #3E3B3B;
-    padding: 15px;
-}
+/* About  */
 
 .about-me {
     padding: 15px;
@@ -102,6 +105,8 @@ h1{
    
 }
 
+/* Contact */
+
 .contact-form {
 
     background-color: #803939;
@@ -115,6 +120,8 @@ h1{
 
 
 }
+
+/* Socials */
 
 .socials {
  padding: 25px;
@@ -136,3 +143,11 @@ h1{
     padding: 10px;
 
  }
+
+/* Footer */
+
+ footer { 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
