@@ -3,8 +3,12 @@
 /* Header */
 
 header {
-    background-color: #BA6565;
+    background-color: #803939;
     
+}
+
+img {
+    max-width: 100%;
 }
 
 .logo {
@@ -22,6 +26,32 @@ header {
     margin-bottom: 0;
  }
 
+#menu {
+    
+    background-color: #803939;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#menu a{ 
+    
+    color: white;
+    text-decoration: none; 
+    text-transform: uppercase;
+    padding: 20px;
+
+}
+#menu a:hover{ color: #F5EEEC; }
+
+#header {
+    
+    position: fixed; 
+    width: 100%; 
+    overflow: none;
+    display: block;
+}
+
 /* Main Content */
 
 body {
@@ -33,12 +63,21 @@ body {
 main{
     margin: 0;
     margin-bottom: 0;
+    padding-top: 300px;
 }
 
 .suzie-and-jake {
   
     background-color:#F5EEEC;
     color: #3E3B3B;
+    padding: 15px;
+  
+}
+
+.kahlia-and-jeremy {
+  
+    background-color:#803939;
+    color: #F5EEEC;
     padding: 15px;
 }
 
@@ -67,43 +106,33 @@ h1{
     padding: 10px;
 }
 
-/* About  */
+/*About Section */
 
-.about-me {
-    padding: 15px;
-    background-color: #A66E6E;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    color: white;
-    width: 100%;
+/*@media screen and (min-width: 800px) {
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}*/
+
+.about-me-image {
+    width: 100%
 }
 
-.about-me h1{
-    text-align: left;
-    margin-left: 58%;
-   
-  
-}
 
-.about-me p{
-    text-align: left;
-    margin-left: 58%;
-    width: 15%;
-}
+/* Contact & Socials Columns */
 
-.about-me a{
-    color: white;
-}
-
-.about-me img{
-    width: 35%;
+.column {
     float: left;
-    margin-left: 22%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-   
-}
+    width: 50%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 /* Contact */
 
@@ -117,6 +146,21 @@ h1{
     width: 100%;
     text-align: center;
     padding: 15px;
+
+
+}
+
+.social-links {
+
+    background-color: #803939;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 24px;
 
 
 }
@@ -150,4 +194,91 @@ h1{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+a:hover{
+
+    color: white;
+    transition: .3s;
+}
+
+
+/* Masonry Gallery */
+
+.masonry { 
+    column-count: 2;
+    column-gap: 1em;
+}
+
+.item { 
+
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 3em auto;
+}
+
+.masonry {
+    margin: 1em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.item {
+    display: inline-block;
+    
+    padding: 1em;
+    margin: 0 0 1em;
+    width: 100%;
+	-webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+
+.item img{max-width:100%;}
+
+@media only screen and (min-width: 400px) {
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .masonry {
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .wrapper {
+        width: 1260px;
+    }
 }
